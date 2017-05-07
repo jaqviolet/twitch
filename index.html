@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="javascript/scripts.js"></script>
+
+<title>Twitch Viewer</title>
+
+</head>
+
+<body>
+
+  <div class='container'>
+  
+    <div id="header">
+
+      <h1>jaqviolet's <img id="logo" src="http://vignette4.wikia.nocookie.net/logopedia/images/2/26/Twitch_logo.svg/revision/latest?cb=20140727180649"> follow list
+      </h1>
+  
+    </div>
+
+    <div class="container outer" id="online">
+    </div>
+    
+    <div class="container outer" id="offline">
+    </div>
+
+<!--  video player script  
+ <script src= "http://player.twitch.tv/js/embed/v1.js"></script>
+<div id="{PLAYER_DIV_ID}"></div>
+<script type="text/javascript">
+    var options = {
+        width: 854,
+        height: 480,
+        channel: "{iskys}", 
+        //video: "{VIDEO_ID}"       
+    };
+    var player = new Twitch.Player("{PLAYER_DIV_ID}", options);
+    player.setVolume(0.0);
+    player.addEventListener(Twitch.Player.PAUSE, () => { console.log('Player is paused!'); });
+</script>
+  -->
+  </div>
+
+</body>
+
+</html>

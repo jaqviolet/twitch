@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  font-family: helvetica neue;
+  background-color:lightgrey;
+}
+/*header*/
+h1 {
+  font-size: 83px;
+  color: #6441A4;
+}
+
+#header {
+  background-color:grey;
+  width:500px;
+  border-style:solid;
+  border-size:5px;
+  border-color:black;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  margin-bottom:-5px;
+  padding-bottom:20px;
+}
+
+#logo {
+  height: 83px;
+  width: 250px;
+}
+
+/*online and offline*/
+.outer {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+#online {
+  background-color: #6441A4;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+
+#offline {
+  background-color: grey;
+  padding-top: 20px;
+  padding-bottom:20px;
+  border-top: 0px;
+  margin-bottom:50px;
+}
+
+/*each streamer*/
+.streamer {
+  margin-top:20px;
+  background-color: lightgrey;
+  border-style: solid;
+  border-color: black;
+  margin-bottom: 20px;
+  height:180px;
+}
+
+.logo {
+  height:175px;
+  margin-left:-20px;
+}
+
+.streamerInfo {
+  display:inline-block;
+  text-align: left;
+  padding-left: 10px;
+  width:100%;
+}
+
+.view{
+  height:175px;
+  margin-left:60px;
+}
